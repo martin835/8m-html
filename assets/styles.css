@@ -1,3 +1,28 @@
-h1 {
-  color: blue;
+:root {
+  --sans-serif: "Open Sans", sans-serif;
+  --turquoise: #58c6d3;
+  --turquoise-dark: #00b1c0;
+  --green: #bde76c;
+  --grey-text: #6a6a6a;
+}
+
+/* Widescreen  // Open Sans
+Widescreen bold (nadpisy)  -700
+Widescreen regular (odstavce)  -400
+Widescreen semibold (úvodní odstavec na nové stránce) -600
+Widescreen medium (menu) -500 */
+
+body {
+  font-family: var(--sans-serif);
+}
+
+.main-container {
+  background-image: url("https://picsum.photos/id/242/2000/2000");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
