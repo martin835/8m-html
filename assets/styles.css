@@ -18,12 +18,13 @@ body {
 
 .hero-container {
   background-image: url("https://picsum.photos/id/242/2000/2000");
+  /* https://picsum.photos/id/242/2000/2000 */
   background-size: cover;
   min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .hero-container::before {
@@ -39,7 +40,7 @@ body {
 
 .hero-text {
   font-size: 90px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .hero-text2 {
@@ -53,4 +54,34 @@ body {
 
 .second-container {
   height: 100vh;
+}
+
+.bg-tile1 {
+  background-color: var(--green);
+}
+.bg-tile2 {
+  background-color: var(--turquoise);
+}
+.bg-tile3 {
+  background-color: var(--turquoise-dark);
+}
+
+.second-container h2 {
+  color: var(--turquoise);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.second-container p {
+  color: var(--grey-text);
+  font-size: 33px;
+}
+
+.text-tiles {
+  font-size: 50px;
+  text-shadow: 2px 2px 4px var(--grey-text);
+}
+
+.third-container {
+  min-height: 100vh;
 }
