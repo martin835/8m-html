@@ -16,13 +16,41 @@ body {
   font-family: var(--sans-serif);
 }
 
-.main-container {
+.hero-container {
   background-image: url("https://picsum.photos/id/242/2000/2000");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.hero-text {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.hero-text2 {
+  color: var(--turquoise-dark);
+}
+
+.hero-text3 {
+  font-size: 60px;
+  text-align: right;
+}
+
+.second-container {
+  height: 100vh;
 }
