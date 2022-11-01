@@ -52,6 +52,16 @@ body {
   text-align: right;
 }
 
+@media screen and (max-width: 992px) {
+  .hero-text {
+    font-size: 60px;
+  }
+
+  .hero-text3 {
+    font-size: 40px;
+  }
+}
+
 .second-container {
   height: 100vh;
 }
@@ -82,6 +92,44 @@ body {
   text-shadow: 2px 2px 4px var(--grey-text);
 }
 
+@media screen and (max-width: 992px) {
+  .second-container h2 {
+    font-size: 40px;
+  }
+
+  .second-container p {
+    font-size: 20px;
+  }
+
+  .text-tiles {
+    font-size: 36px;
+  }
+}
+
 .third-container {
   min-height: 100vh;
+}
+
+.map-height {
+  height: 40vh;
+}
+
+.third-container {
+  color: var(--turquoise);
+}
+
+.third-container .big-text {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1400px) {
+  .third-container .big-text {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .third-container .big-text {
+    font-size: 60px;
+  }
 }
