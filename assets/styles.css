@@ -98,9 +98,9 @@ body {
   color: white;
 }
 
-.second-container {
+/* .second-container {
   height: 100vh;
-}
+} */
 
 .bg-tile1 {
   background-color: var(--green);
