@@ -52,6 +52,11 @@ body {
   text-align: right;
 }
 
+/* .my-scrollspy {
+  height: 1000px;
+  overflow-y: scroll;
+} */
+
 @media screen and (max-width: 992px) {
   .hero-text {
     font-size: 60px;
