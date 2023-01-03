@@ -149,12 +149,6 @@ li {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .text-tiles {
-    font-size: 25px;
-  }
-}
-
 @media screen and (max-width: 576px) {
   .second-container h2 {
     font-size: 30px;
@@ -173,20 +167,21 @@ li {
 
 .third-container {
   min-height: 100vh;
+  color: var(--turquoise);
 }
 
 .map-height {
   height: 40vh;
 }
 
-.third-container {
-  color: var(--turquoise);
+.profile-img {
+  border-radius: 50%;
 }
 
-.third-container .big-text {
-  font-size: 90px;
+.third-container h2 {
+  color: var(--turquoise);
+  font-size: 40px;
   font-weight: 700;
-  padding: 0px 30px 0px 30px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -195,26 +190,25 @@ li {
   }
 }
 @media screen and (max-width: 992px) {
-  .third-container .big-text {
-    font-size: 60px;
+  .third-container h2 {
+    font-size: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .third-container .big-text {
+  .third-container h2 {
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .third-container > div:first-of-type {
-    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .third-container .big-text {
+  .third-container h2 {
     font-size: 30px;
   }
 
