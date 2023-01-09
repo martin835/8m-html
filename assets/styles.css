@@ -17,7 +17,7 @@ body {
 }
 
 .hero-container {
-  background-image: url("../img-local-only/shutterstock-1727702806.jpg");
+  background-image: url("../assets/shutterstock-1727702806.jpg");
   /* https://picsum.photos/id/242/2000/2000 */
   background-size: cover;
   background-repeat: no-repeat;
