@@ -15,7 +15,7 @@ Widescreen medium (menu) -500 */
 body {
   font-family: var(--sans-serif);
 }
-/* add NEEEW comment */
+
 .hero-container {
   background-image: url('../assets/shutterstock-1727702806.jpg');
   /* https://picsum.photos/id/242/2000/2000 */
