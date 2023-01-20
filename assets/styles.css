@@ -1,5 +1,5 @@
 :root {
-  --sans-serif: "Open Sans", sans-serif;
+  --sans-serif: 'Open Sans', sans-serif;
   --turquoise: #58c6d3;
   --turquoise-dark: #00b1c0;
   --green: #bde76c;
@@ -15,9 +15,9 @@ Widescreen medium (menu) -500 */
 body {
   font-family: var(--sans-serif);
 }
-
+/* add NEEEW comment */
 .hero-container {
-  background-image: url("../assets/shutterstock-1727702806.jpg");
+  background-image: url('../assets/shutterstock-1727702806.jpg');
   /* https://picsum.photos/id/242/2000/2000 */
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
 }
 
 .hero-container::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -86,7 +86,7 @@ body {
 }
 
 .hero-container2 {
-  background-image: url("https://picsum.photos/id/182/2000/2000");
+  background-image: url('https://picsum.photos/id/182/2000/2000');
   /* https://picsum.photos/id/242/2000/2000 */
   background-size: cover;
   min-height: 100vh;
@@ -96,7 +96,7 @@ body {
 }
 
 .hero-container2::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
