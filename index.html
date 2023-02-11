@@ -3,282 +3,434 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="./assets/logo.png">
-  <title>Green transition</title>
 
-  <!-- Bootstrap -->
+  <title>skupina 8m</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <!-- Google Fonts -->
+  <!-- Google web font -->
+
+  <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Tooplate style -->
+  <link rel="stylesheet" href="css/tooplate-style.css">
+  <!-- Magnific Popup core CSS file -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;900&family=Open+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300">
 
-  <!-- Custom stylesheets -->
-  <link rel="stylesheet" href="./assets/styles.css">
+  <!--Main Custom CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 
 <body>
-  <div class="hero-container">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand p-5" href="#"><img src="./assets/logo.png" height="70" alt="8m company logo"></a>
-        <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-5">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#o-nas">O NÁS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#spolupraca">SPOLUPRÁCA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#kariera">KARIÉRA</a>
-            </li>
+  <nav class="navbar navbar-expand-lg tm-text-white my-navbar-background fixed-top">
+    <div class="container">
+      <a class="navbar-brand p-2" href="index.html"><img src="http://8mgroup.eu/img/WHITE_LOGO_8M.png" alt="image"
+          height="50px"></a>
+      <button class="navbar-toggler tm-text-white" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
 
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#kontakt">KONTAKTY</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  ml-lg-auto">
+          <li class="nav-item  ">
+            <a class="nav-link tm-text-white my-nav-link" href="#tm-section-3">O nás <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link tm-text-white my-nav-link" href="#spoluprace">Spolupráce</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link tm-text-white my-nav-link" href="#team">Náš team</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link tm-text-white my-nav-link" href="#kontakty">Kontakty</a>
+          </li>
+          <!-- For language picker - uncomment below ⬇️ -->
+          <!-- <li class="nav-item  dropdown">
+            <a class="nav-link dropdown-toggle tm-text-white my-nav-link" href="#" data-toggle="dropdown"
+              aria-expanded="false">
+              Jazyk
+            </a>
+            <div class="dropdown-menu my-dropdown-menu">
+              <a class="dropdown-item tm-text-white" href="#">Anglicky</a>
+              <a class="dropdown-item tm-text-white" href="#">Nemecky</a>
+            </div>
+          </li> -->
+        </ul>
+        <ul class="social-icon ml-lg-3">
+          <li><a aria-label="facebook" href="https://www.facebook.com/profile.php?id=100075591411211"
+              class="fa fa-facebook"></a></li>
+          <li><a aria-label="linkedin" href="https://www.linkedin.com/company/8m-group-eu" class="fa fa-linkedin"></a>
+          </li>
+          <li><a aria-label="twitter" href="#" class="fa fa-twitter"></a></li>
 
-    <div class="container-fluid my-auto position-relative">
-      <div class="row justify-content-center text-end">
-        <div class="col-8">
-          <h1 class="hero-text text-white">
-            budoucnost <span class="hero-text2">energie.</span>
-          </h1>
-          <div class="hero-text3 text-white">již nyní.</div>
-        </div>
+        </ul>
+
       </div>
+    </div>
+  </nav>
+
+  <!--navigace konec-->
+  <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-01.jpg">
+    <div class="rowINTROPAGE">
+      <h1>
+        budoucnost <span class="h1-A">energie.</span> <br> již nyní.
+      </h1>
     </div>
   </div>
 
-  <div class="container-fluid second-container">
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-6 d-flex flex-column justify-content-center">
-        <!-- THIS SHOULD BE ON THE "SCROLLABLE CONTAINER - which is div below" -->
-        <!-- class="my-scrollspy"
-            data-bs-spy="scroll"
-            data-bs-target="#myScroll"
-            data-bs-offset="0"
-            data-bs-smooth-scroll="true"
-            tabindex="0" -->
-
-        <div class="content-block">
-          <h2 class="mt-5" id="o-nas">Skupina 8m</h2>
-          <ul class="nav flex-column flex-lg-row justify-content-start">
-
-            <li class="nav-item">
-              <a class="nav-link px-lg-0" href="#skupina-8m-nasa-filozofia">Naša filozofia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skupina-8m-kde-posobime">Kde pôsobime</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skupina-8m-nas-tim">Náš tím</a>
-            </li>
-
-          </ul>
-          <p class="my-3">
-            8m sme založili s myšlienkou prispieť k zmene energetiky a pripraviť naše krajiny na potreby
-            21. storočia. Veríme, že aj my môžeme našim dielom pomôcť k lacnej a čistej energii, energii
-            budúcnosti.
-          </p>
-          <p class="my-3">
-            Denne sa venujeme rozvoju projektov obnoviteľných zdrojov už od prvej myšlienky až po
-            finálny projekt. Máme mladý a dynamický tím, ktorý neustále posúva hranice možností
-            našich projektov. Spolupracujeme s top svetovými hráčmi, vďaka ktorým môžeme rozvíjať
-            naše ciele vo veľkom a používať tie najlepšie svetové technológie.
-          </p>
-          <p class="my-3">
-            Vieme, že máme všetky potrebné nástroje, aby sa nám podarilo dosiahnuť náš cieľ.
-          </p>
-          <p class="my-3">
-            Budúcnosť energie, už dnes.
-          </p>
-
-          <div class="">
-            <h3 class=" mt-5" id="skupina-8m-nasa-filozofia">Naša filozofia</h3>
-            <p class="my-3">
-              Veríme, že každý úspešný projekt musí spĺňať základnú podmienku – musia z neho
-              profitovať všetky strany. Preto nerobíme skratky.
+  <div id="tm-section-3" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-blue.png">
+    <section class="container tm-page-1-content ">
+      <h4>
+        O NÁS
+      </h4>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="tm-text-white my-bigger-text ">
+            <p>
+              Skupinu 8m jsme založili s myšlenkou přispět k energetické transformaci a připravit naše země na potřeby
+              21.
+              století. Věříme, že i my můžeme přispět k levné a čisté energii, energii budoucnosti.
             </p>
-            <ul>
-              <li class="mb-3">Projekty rozvíjame v tej najlepšej kvalite.</li>
-              <li class="mb-3">Veríme, že estetika projektu je zásadná súčasť riešenia projektu. Vždy sa snažíme
-                robiť projekty tak, ako by sme ich navrhli vedľa nášho domova. Rovnako, vždy
-                počúvame ľudí a ich názory, ktoré sa následne snažíme v maximálnej možnej miere
-                reflektovať v našich projektoch.</li>
-              <li class="mb-3">Veríme, že spolupráce s obcami a mestami je základným kameňom našich úspechov.</li>
-            </ul>
+            <p>Každý den se věnujeme vývoji projektů obnovitelných zdrojů energie od prvního nápadu až po finální
+              projekt.
+              Působíme primárně v rodných zemích našich zakladatelů, tedy v česku a na slovensku, ale naši činnost
+              rozvíjíme
+              také v oblasti CEE regionu. V Maďarsku, Rumunsku, Srbsku a Chorvatsku spolupracujeme s místními developery
+              a
+              odborníky se špičkovou lokální znalostí. Dohromady
+            </p>
+            <p>Máme mladý a dynamický tým, který neustále posouvá hranice možností našich projektů. Spolupracujeme s
+              předními
+              světovými hráči, což nám umožňuje rozvíjet naše cíle ve velkém měřítku a využívat nejlepší světové
+              technologie.
+            </p>
+            <p>Víme, že máme všechny potřebné nástroje k dosažení našich cílů.
+            </p>
+            <p>
+              Budoucnost energie. Již dnes.
+            </p>
           </div>
-          <div class="">
-            <h3 class=" my-5" id="skupina-8m-kde-posobime">Kde pôsobime</h3>
-            <img src="./assets/Pieter-van-den-Keere-worldmap.jpeg" alt="mapa" class="img-fluid">
-          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="./img/map1.png" alt="map" class="img-fluid mt-5">
+        </div>
+      </div>
 
 
-          <div class="">
-            <h3 class=" my-5" id="skupina-8m-nas-tim">Náš tím</h3>
-            <div class="row">
-              <div class="col-12  mb-5 ">
-                <div class="row">
-                  <div class="col-2  ">
-                    <img src="./assets/foto-js.webp" alt="profile image" class="profile-img img-fluid">
-                  </div>
-                  <div class="col-8">
-                    <div>Partner</div>
-                    <div>Ján Selep</div>
-                    <div><a href="tel:+420776277396">tel:&nbsp;+420&nbsp;776&nbsp;277&nbsp;396</a></div>
-                    <div><a href="mailto:selep@8-m.eu">m: selep@8-m.eu</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12  mb-5 ">
-                <div class="row">
-                  <div class="col-2  ">
-                    <img src="./assets/foto-pk.webp" alt="profile image" class="profile-img img-fluid">
-                  </div>
-                  <div class="col-8">
-                    <div>Partner</div>
-                    <div>Petr Koblovský</div>
-                    <div><a href="tel:+420777556650">tel:&nbsp;+420&nbsp;777&nbsp;556&nbsp;650</a></div>
-                    <div>
-                      <a href="mailto:koblovsky@8-m.eu">m: koblovsky@8-m.eu</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12  mb-5 ">
-                <div class="row">
-                  <div class="col-2  ">
-                    <img src="./assets/foto-ls.webp" alt="profile-img profile image" class="profile-img img-fluid">
-                  </div>
-                  <div class="col-8">
-                    <div>Developer pro SK</div>
-                    <div>L'uboš Šnirc</div>
-                    <div><a href="tel:+421917469926">tel:&nbsp;+421&nbsp;917&nbsp;469&nbsp;926</a></div>
-                    <div>
-                      <a href="mailto:snirc@8-m.eu">m: snirc@8-m.eu</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    </section>
+  </div>
+
+  <div id="spoluprace" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-13.jpg">
+    <section class="container tm-page-1-content tm-page-2-content">
+
+      <h4>
+        SPOLUPRÁCE
+      </h4>
+
+
+      <div class="tm-text-white m">
+        <!-- text pod dvojradkem musi zacinat ve stejne vysi -->
+        <article class="tm-bg-koop-left koop-display-1 my-bigger-text my-box-shadow">
+
+          <p>Jsme přesvědčeni, že každý úspěšný projekt musí splňovat základní podmínku - musí být přínosem pro všechny
+            strany. Proto aktivně spolupracujeme s vlastníky půdy, obcemi a místními komunitami i velkými odběrateli
+            elektrické energie. </p>
+          <p>Proto si nezkracujeme cestu.</p>
+          <p>V naší DNA je dodávat maximální kvalitu a profesionalitu. S tím přistupujeme ke každému projektu, na kterém
+            pracujeme. Neustále hledáme způsoby jak rozšířit naše portfolio projektů a zkvalitňovat výstupy – ale na to
+            potřebujeme spolupracovat s okolím.</p>
+        </article>
+      </div>
+
+    </section>
+  </div>
+
+  <div id="spoluprace-vlastnici" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-11.jpg">
+    <section class="container tm-page-1-content tm-page-2-content">
+
+      <h4>
+        SPOLUPRÁCE S VLASTNÍKY PŮDY
+      </h4>
+
+
+      <div class="tm-text-white m">
+        <!-- text pod dvojradkem musi zacinat ve stejne vysi -->
+        <article class="tm-bg-koop-left koop-display-1 my-bigger-text my-box-shadow">
+
+          <p>Na základě našich dlouhodobých zkušeností jsme určili několik kritérií, která považujeme za nezbytná pro
+            zachování ekologických, technologických nebo estetických standardů, kterými se řídíme. Patří mezi ně: </p>
+          <ol>
+            <li>Nízká kvalita půdy - Vybíráme si pozemky nízké bonity a také nasloucháme místním zemědělcům a
+              reflektujeme jejich zkušenosti.</li>
+            <li>Nízká viditelnost z obydlených oblastí - Chápeme obavy místních z ničení jejich okolí a krajiny, jak ji
+              znají. Věříme, že tyto změny lze provést citlivě.</li>
+            <li>Minimální velikost 8 hektarů – aby naše práce měla smysl a mohla z ní mít benefit i místní komunita
+              musím stavět velké projekty. Minimální velikost 8 hektarů není nepřekonatelná a jsme připraveni se věnovat
+              i menším projektům, pokud je to výhodné.</li>
+          </ol>
+          <p>Možná to nevíte, ale našimi projekty pomáháme půdě. Existuje celá nezávislých řada studií, která prokazuje
+            pozitivní vliv fotovoltaických elektráren na půdu a lokální biodiverzitu. Půda méně eroduje, zadržuje více
+            vody, bez rušení hostí množství drobných živočichů a ptáků a osázená lučními květinami poskytuje zdroj
+            obživy pro motýly a medonosný hmyz.</p>
+        </article>
+      </div>
+
+    </section>
+  </div>
+
+  <div id="spoluprace-firmy" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-factory.jpg">
+    <section class="container tm-page-1-content tm-page-2-content">
+
+      <h4>
+        SPOLUPRÁCE S PODNIKY
+      </h4>
+
+
+      <div class="tm-text-white m">
+        <!-- text pod dvojradkem musi zacinat ve stejne vysi -->
+        <article class="tm-bg-koop-left koop-display-1 my-bigger-text my-box-shadow">
+
+          <p>Podnikům dodáváme zelenou elektřinu přímo z našich elektráren. Přímé odběry od naší skupiny poskytují
+            finanční jistotu ukotvením nákladů na středně až dlouhé období (na 5 až 20 let). Přímý přístup k
+            obnovitelným zdrojům energie, které jsou spolehlivé a certifikované, také umožňuje snižovat náklady na
+            spotřebu energie a tuto dekarbonizovat. Díky našim dodávkám podniky mohou splňovat evropské odpovědnostní
+            (ESG) požadavky a to jim umožňuje přístup k levnějším zdrojům. Pro podniky není lepší spolupráce než ta s
+            námi. </p>
+          <p>Vedle elektřiny připravujeme pro velké odběratele také dodávky vodíku, a to především prostřednictvím
+            potrubí vedoucím z našich elektráren, ležících ideálně v bezprostřední blízkosti našich elektráren, přímo do
+            místa spotřeby. Takovéto projekty vyžadují hlubokou znalost našich klientů a jejich potřeb a maximální
+            důvěru. A na nás se můžete spolehnout. Již nyní.</p>
+        </article>
+      </div>
+
+    </section>
+  </div>
+
+  <div id="spoluprace-mesta" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-city.jpg">
+    <section class="container tm-page-1-content tm-page-2-content">
+
+      <h4>
+        SPOLUPRÁCE S OBCEMI
+      </h4>
+
+
+      <div class="tm-text-white m">
+        <!-- text pod dvojradkem musi zacinat ve stejne vysi -->
+        <article class="tm-bg-koop-left koop-display-1 my-bigger-text my-box-shadow">
+
+          <p>V rámci našich projektů úzce spolupracujeme s obcemi, které se pro nás stávají dalšími významnými partnery.
+            Lokality elektráren jsou vyhledávaným cílem pro investory, kteří poptávají čistý a ekologický zdroj energie.
+            Takový zájem přináší nové příležitosti pro rozvoj nejen metropolí, ale i dosud často opomíjených oblastí.
+            Nespoléháme se ale pouze na pasivní přínosy a sami také aktivně obce podporujeme. Vždy hledáme řešení
+            „ušité“ na míru, proto se forma spolupráce může lišit na základě individuálních potřeb. Nabízíme například
+            dlouhodobě levnější energii, podporu infrastrukturních projektů nebo pravidelné příspěvky do rozpočtu.
+            Držíme se dvou hlavních cílů, a to: </p>
+          <ol>
+            <li>podpořit rozvoj obce a jejích obyvatel</li>
+            <li>zvýšit příjmy obce</li>
+            <li>podílet se společně na tvorbě lepší a zelenější budoucnosti </li>
+          </ol>
+          <p>
+            Jsme přesvědčeni, že estetická stránka projektu je nezbytnou součástí jeho řešení. Vždy se snažíme dělat
+            projekty tak, jak bychom je navrhovali vedle svého domu. Vždy také nasloucháme lidem a jejich názorům, které
+            se pak snažíme co nejvíce promítnout do našich projektů.
+          </p>
+        </article>
+      </div>
+
+    </section>
+  </div>
+
+  <div id="team" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-02.jpg">
+    <section class="container tm-page-2-content">
+      <h4>
+        TEAM
+      </h4>
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <img
+              src="https://www.dlapiper.com/-/media/project/dlapiper-tenant/dlapiper/bio-images/p/petr_sabatka_personality_web_large.jpg?rev=-1"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <p><strong>Jozko Mrkvicka</strong></p>
+              <p>Parter</p>
+              <p><a href="tel:+420 777 55 66 50">+420&nbsp777&nbsp55&nbsp66&nbsp50</a></p>
+              <p><a href="mailto:koblovsky@8m.eu"></a></p>
             </div>
           </div>
         </div>
-        <div class="content-block">
-          <h2 class="mt-5" id="spolupraca">Spolupráca</h2>
-          <ul class="nav flex-column flex-lg-row justify-content-start">
 
-            <li class="nav-item">
-              <a class="nav-link px-lg-0" href="#spolupraca-poda">Pôda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#spolupraca-projekty">Projekty</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#spolupraca-elektrina">Elektrina</a>
-            </li>
+        <!-- <article class="col-12 col-md-4 tm-article tm-CARDS ">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Petr Koblovský</div>
+            <div class="card-display-2">partner</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
 
-          </ul>
-          <p class="my-3">
-            Neustále hľadáme možnosti ako zväčšiť a zlepšiť naše portfólio projektov. Na základe našich
-            dlhodobých skúsenosti sme vybrali niekoľko kritérií, ktoré veríme, že sú nutné pre
-            dodržovanie environmentálneho, technologického, či estetického štandardu. Patrí medzi
-            nich:
-          </p>
-          <ol>
-            <li class="mb-3">
-              Nízka kvalita pôdy. Primárne hľadáme v bonitných mapách, rovnako ale počúvame
-              miestnych poľnohospodárov a reflektujeme ich skúsenosti.
-            </li>
-            <li class="mb-3">
-              Malá viditeľnosť z obývaných oblastí. Chápeme obavy ľudí o zničenie okolia a ich
-              krajiny tak ako ju poznajú. Veríme, že sa tieto zmeny dajú robiť citlivo.
-            </li>
-            <li class="mb-3">
-              Minimálna veľkosť 8 hektárov
-            </li>
-          </ol>
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Jan Selep</div>
+            <div class="card-display-2">partner</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: selep@8m.eu</div>
+          </div>
+        </article>
 
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
           <div class="">
-            <h3 class=" mt-5" id="spolupraca-poda">Pôda</h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl
-              aliquet
-            </p>
-            <ul>
-              <li class="mb-3">Lorem ipsum ... </li>
-              <li class="mb-3">Lorem ipsum ...</li>
-              <li class="mb-3">Lorem ipsum ...</li>
-            </ul>
+            <img alt="image"
+              src="https://www.dlapiper.com/-/media/project/dlapiper-tenant/dlapiper/bio-images/p/petr_sabatka_personality_web_large.jpg?rev=-1"
+              class="image-radius-25 img-fluid">
+            <div class="card-display-1">Slovensky Kolega</div>
+            <div class="card-display-2">project manager</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: pechotova@8m.eu</div>
           </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
           <div class="">
-            <h3 class=" mt-5" id="spolupraca-projekty">Projekty</h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl
-              aliquet
-            </p>
-            <ul>
-              <li class="mb-3">Lorem ipsum ... </li>
-              <li class="mb-3">Lorem ipsum ...</li>
-              <li class="mb-3">Lorem ipsum ...</li>
-            </ul>
+            <img alt="image"
+              src="https://www.dlapiper.com/-/media/project/dlapiper-tenant/dlapiper/bio-images/t/terezie_vondraskova_personality_web_large.jpg?rev=-1"
+              class="image-radius-25 img-fluid">
+            <div class="card-display-1">Katerina Pechotova</div>
+            <div class="card-display-2">project manager</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: pechotova@8m.eu</div>
           </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
           <div class="">
-            <h3 class=" mt-5" id="spolupraca-elektrina">Elektrina</h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec lacinia aliquam, nisl nisl
-              aliquet
-            </p>
-            <ul>
-              <li class="mb-3">Lorem ipsum ... </li>
-              <li class="mb-3">Lorem ipsum ...</li>
-              <li class="mb-3">Lorem ipsum ...</li>
-            </ul>
+            <img alt="image"
+              src="https://www.dlapiper.com/-/media/project/dlapiper-tenant/dlapiper/bio-images/l/lenka_chmielova_personality_web_large.jpg?rev=-1"
+              class="image-radius-25 img-fluid">
+            <div class="card-display-1">Evzen Frolov</div>
+            <div class="card-display-2">project manager</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
           </div>
-        </div>
-        <div class="content-block">
-          <h2 class="mt-5" id="kariera">Kariéra</h2>
-          <img src="./assets/we-need-you.jpeg" alt="kariera" class="img-fluid my-5">
-        </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image"
+              src="https://www.dlapiper.com/-/media/project/dlapiper-tenant/dlapiper/bio-images/j/jaroslav_fort_personality_web_large.jpg?rev=-1"
+              class="image-radius-25 img-fluid">
+            <div class="card-display-1">Dan Hlavacek</div>
+            <div class="card-display-2">project manager</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Frantisek Sup</div>
+            <div class="card-display-2">CAD magician</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Adela Schneeweissova</div>
+            <div class="card-display-2">office head</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Ondrej Kvasnicka</div>
+            <div class="card-display-2">legal</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Karolina Polakova</div>
+            <div class="card-display-2">researcher</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Kamila Kasparkova</div>
+            <div class="card-display-2">researcher</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-4 tm-article tm-CARDS">
+          <div class="">
+            <img alt="image" src="img/bg-img-01.jpg" class="image-radius-25 img-fluid">
+            <div class="card-display-1">Karel Jilek</div>
+            <div class="card-display-2">researcher</div>
+            <div class="card-display-3">telefon: +420 777 55 66 50<br>email: koblovsky@8m.eu</div>
+          </div>
+        </article> -->
+
       </div>
-
-      <!-- <div class="d-none col-lg-2 d-lg-block">
-        <div id="myScroll" class="d-flex flex-column text-center">
-          <a class="p-1 rounded" href="#o-nas">Skupina 8m</a>
-          <a class="p-1 rounded" href="#zmena">Změna klimy</a>
-          <a class="p-1 rounded" href="#co-delame">Jak si vybíráme projekty</a>
-          <a class="p-1 rounded" href="#kontakt">Kontakt</a>
-        </div>
-      </div> -->
-    </div>
+    </section>
   </div>
 
-  <div class="container-fluid hero-container2 mt-5">
-    <div class="row position-relative text-white">
-      <div class="col-8 offset-2">
-        <h2 class="hero-text mt-5">budoucnost energie</h2>
-        <p class="">
-          Stavíme solární elektrárny v nejvyšší možné kvalitě v souladu s
-          principy udržitelnosti a vstřícnosti k životnímu prostředí. A pokud
-          mužeme, tak bez jakýchkoliv dotací.
-        </p>
+  <div id="spoluprace-talenty" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-img-city.jpg">
+    <section class="container tm-page-1-content tm-page-2-content">
+
+      <h4>
+        SPOLUPRÁCE S TALENTY
+      </h4>
+
+
+      <div class="tm-text-white m">
+        <!-- text pod dvojradkem musi zacinat ve stejne vysi -->
+        <article class="tm-bg-koop-left koop-display-1 my-bigger-text my-box-shadow">
+
+          <p>Chceš být součástí mladého kolektivu ve start-upu, který se snaží změnit svět? Chceš řídit projekty? Nebo
+            se chceš kariérně posouvat? Tohle vše si můžeme nabídnout!
+            Rádi si na dobrého člověka počkáme a zároveň si rádi vychováme budoucí projektové manažery. Vše tě naučíme
+            krok po kroku a dostaneš se k zajímavým projektům, které budeš nastarost ty sám. Od tebe jen očekáváme, že
+            se budeš chtít sám rozvíjet.
+            Naše práce nás baví a ještě o to víc, když víme, že naším posláním je zlepšovat život a bezpečí nejen v naší
+            zemi, ale i v celém středoevropském regionu, díky našim solárním elektrárnám.</p>
+
+          <p>Tak co půjdeš s námi vytvářet budoucnost energie?</p>
+        </article>
       </div>
-    </div>
+
+    </section>
   </div>
+
+  <!--experimentalni okenko - konec-->
 
   <div class="d-flex flex-column justify-content-between third-container">
 
@@ -289,7 +441,7 @@
         width="100%" class="map-height" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="container-fluid footer-main-page">
+    <div id="kontakty" class="container-fluid footer-main-page">
       <div class="row text-center mt-4">
         <div class="col-12 col-sm-4 mb-5">
           <h3>ODKAZY</h3>
@@ -315,9 +467,14 @@
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script> <!-- jQuery (https://jquery.com/download/) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
+
 </body>
 
 </html>
